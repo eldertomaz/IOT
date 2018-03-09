@@ -1,0 +1,33 @@
+<html>
+<body>
+
+<h1>Codigo em JavaScript(quero deixar claro que nao gosto de java)</h1>
+
+
+
+
+
+
+<p>Temperatura.</p>
+
+<button onclick="myFunction()">Mostrar temperatura</button>
+
+<p id="demo1"></p>
+
+<script>
+function myFunction() {
+    var x = Math.floor((Math.random() * 4) + 27);
+    document.getElementById("demo").innerHTML = x;
+}
+
+</script>
+
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+display Data e Hora.</button>
+
+<p id="demo"></p>
+
+</body>
+</html> 
