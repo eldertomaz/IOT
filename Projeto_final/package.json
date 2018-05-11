@@ -1,0 +1,23 @@
+{
+    "name": "mqtt-mongo-recorder",
+    "description": "Esta aplicacao NodeJS escuta mensagens de um broker MQTT e as grava no MongoDB",
+    "author": "Dennis de Greef <github@link0.net>",
+    "license": "MIT",
+    "version": "1.0.0",
+    "dependencies": {
+        "body-parser": "^1.18.2",
+        "cors": "^2.8.4",
+        "express": "^4.16.3",
+        "forever": "^0.15.3",
+        "mongodb": "2.2.31",
+        "mongoose": "^5.0.17",
+        "mongoose-api-query": "^0.1.1-pre",
+        "mongoose-auto-increment": "^5.0.1",
+        "mongoose-middleware": "^1.0.0",
+        "mqtt": "^2.13.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/barcelos32/iot.git"
+    }
+}
